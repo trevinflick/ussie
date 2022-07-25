@@ -6,6 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/trevinflick/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/trevinflick/ussie/actions/workflows/R-CMD-check.yaml)
+[![test_coverage](https://github.com/trevinflick/ussie/actions/workflows/test_coverage.yaml/badge.svg)](https://github.com/trevinflick/ussie/actions/workflows/test_coverage.yaml)
 <!-- badges: end -->
 
 The goal of ussie is to manage European football data supplied by the
