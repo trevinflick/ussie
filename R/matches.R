@@ -25,3 +25,5 @@ uss_make_matches <- function(data_engsoc, country) {
     )
   result
 }
+
+`%not_in%` <- Negate(`%in%`)
