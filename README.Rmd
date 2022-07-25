@@ -1,0 +1,42 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ussie
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/trevinflick/ussie/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/trevinflick/ussie/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
+The goal of ussie is to manage European football data supplied by the **`engsoccerdata`** package (Curley 2016).
+
+## Installation
+
+You can install the development version of ussie from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("trevinflick/ussie")
+```
+
+## Example
+
+This example loads the Italian soccer data and makes sure the columns match:
+
+```{r example}
+library(ussie)
+uss_make_matches(engsoccerdata::italy, "Italy")
+```
+
+
