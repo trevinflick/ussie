@@ -6,12 +6,13 @@
 \alias{ussie-package}
 \title{ussie: Managing European Football Data}
 \description{
-This is a demo package for the "Building Tidy Tools" workshop at at rstudio::conf(2022L). It allows you to work with European football league data supplied by the engsoccerdata package (Curley 2016).
+This is a demo package for the "Building Tidy Tools" workshop at at rstudio::conf(2022L). It allows you to work with European football league data supplied by the engsoccerdata package (Curley 2016). I like lunch
 }
 \seealso{
 Useful links:
 \itemize{
   \item \url{https://github.com/trevinflick/ussie}
+  \item \url{https://trevinflick.github.io/ussie/}
   \item Report bugs at \url{https://github.com/trevinflick/ussie/issues}
 }
 
